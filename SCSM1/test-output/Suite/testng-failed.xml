@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="actitime.testscript.SupportVesrion"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="actitime.testscript.SupportVesrion">
+        <methods>
+          <include name="launchBrwser"/>
+          <include name="logout"/>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="getVersion"/>
+        </methods>
+      </class> <!-- actitime.testscript.SupportVesrion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
